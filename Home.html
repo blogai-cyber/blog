@@ -21,7 +21,7 @@
 
         .nav-container {
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
             align-items: center;
             width: 100%;
         }
@@ -35,6 +35,8 @@
             padding: 0;
             margin: 0;
             display: flex;
+            justify-content: flex-end; /* Align items to the right */
+            width: 100%;
         }
 
         .nav-list li {
@@ -123,7 +125,7 @@
             flex-direction: column;
             align-items: center;
             height: calc(100vh - 70px);
-            justify-content: center;
+            justify-content: start;
             padding: 20px;
         }
 
@@ -142,11 +144,8 @@
         footer {
             background-color: black;
             color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
+            text-align: left;
+            padding: 10px 20px;
         }
 
         @media (max-width: 768px) {
@@ -193,8 +192,8 @@
         </div>
     </header>
     <main class="content">
-        <h1>Welcome to the Home Page</h1>
-        <p>This is where you can introduce your blog and share some insights about the content you offer. Feel free to add any other information or sections as needed.</p>
+        <h1>Welcome to Our Blog</h1>
+        <p>This is where you can explore a variety of topics, delve into poetry, and share your thoughts. Feel free to engage with our content and leave your feedback. Enjoy your stay!</p>
     </main>
     <footer>
         <p>&copy; 2024 Your Blog. All rights reserved.</p>
